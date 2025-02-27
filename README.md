@@ -139,5 +139,24 @@ Detail the steps involved in making your first commit to a GitHub repository. Wh
 How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
 Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+ANS:
+Pull requests (PRs) play a central role in facilitating collaboration, communication, and code review in the GitHub workflow. They provide a structured and transparent way for developers to propose changes to a codebase, ensuring that changes are reviewed, tested, and discussed before they are merged into the main repository.
+Code Review:
+
+Pull requests allow other team members (or repository maintainers) to review your changes before they are merged into the main codebase. Code reviews help ensure that the proposed code adheres to project standards, is free of bugs, and is optimized.
+Reviewers can leave comments on specific lines of code, suggesting improvements or pointing out issues. This ensures that feedback is clear, context-specific, and actionable.
+This process also encourages good coding practices, such as writing clear comments, following style guidelines, and making sure the code is understandable.
+Collaboration:
+
+Pull requests create a conversation space where developers can discuss the purpose and impact of the changes. The author can explain why certain changes were made, and reviewers can ask questions or offer alternative solutions.
+This is particularly valuable in teams, as it helps multiple people understand the intent and impact of the changes before they are merged.
+For open-source projects, PRs allow external contributors to suggest improvements or fixes, enabling the broader community to participate in the development process.
 
 Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
+ANS:
+Forking a repository refers to creating your own copy of someone else's repository on GitHub. This allows you to freely experiment with changes without affecting the original project. You can make modifications, fix bugs, or add features independently.
+
+Forking is about creating a personal copy of a repository on GitHub to work independently and contribute back.
+Cloning is about copying a repository to your local machine to work on it locally
+
+Forking: Suppose you want to contribute to an open-source project. You would fork the repository on GitHub, which creates a copy of the repository under your GitHub account. Then, you would clone that forked repository to your local machine to start working on it. After making your changes, you can push them to your fork on GitHub and submit a pull request to the original repository.
