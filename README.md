@@ -196,6 +196,7 @@ Collaborate and Share Progress:
 Multiple developers can commit changes to the same repository. Git tracks changes made by different contributors, and commits help merge these changes effectively.
 Maintain a Record of Work:
 Each commit is a step in the project’s development process. You can refer back to commits to understand why certain changes were made (based on commit messages).
+
 What is Branching in Git?
 Branching is one of the most powerful features of Git and is essential for collaborative development. A branch represents an independent line of development in a project. By default, every repository has a main branch (sometimes called master), which is the main line of development. When you create a new branch, you're effectively creating a separate version of the code where you can make changes without affecting the main branch.
 
